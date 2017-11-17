@@ -1,4 +1,4 @@
 defmodule War.Card do
-  @enforce_keys [:figure, :color]
-  defstruct [:figure, :color]
+  @enforce_keys [:suit, :rank]
+  defstruct [:suit, :rank]
 end
